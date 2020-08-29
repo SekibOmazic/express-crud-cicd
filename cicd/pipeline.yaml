@@ -181,5 +181,5 @@ Resources:
                     "-",
                     [!Ref Stage, !Ref "AWS::AccountId", "FargateECSCluster"],
                   ]
-                TemplatePath: source-output-artifacts::Cloudformation/infrastructure/cf-template.yaml
+                TemplatePath: source-output-artifacts::infrastructure/cf-template.yaml
               RunOrder: 1
